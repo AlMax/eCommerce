@@ -1,0 +1,95 @@
+.container {
+    width: 100%;
+    height: 50%;
+    background-color: #957c9e;
+    padding: 20px;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.list li {
+    display: inline-block;
+    background-color: #f0f0f0;
+    display: table-row;
+    color: #5c5c5c;
+}
+
+.list li:nth-child(odd) {
+    background-color: #f2f2f2;
+    display: table-row;
+    font-size: 9pt;
+    color: #5c5c5c;
+}
+
+.list li:nth-child(even) {
+    border: 1px solid #201c2b;
+    background-color: #e0e0e0;
+    display: table-row;
+    font-size: 9pt;
+    color: #5c5c5c;
+}
+
+.list li:nth-child(1) {
+    background-color: #201c2b;
+    text-transform: uppercase;
+    font-size: 9pt;
+    font-weight: bold;
+    color: #b8b5c0;
+}
+
+.list li:nth-child(1) span:first-child {
+    border-top-left-radius: 6px;
+}
+
+.list li:nth-child(1) span:last-child {
+    border-top-right-radius: 6px;
+}
+
+.list li:nth-child(1) span {
+    border-bottom: 4px solid #6d09a0;
+    padding: 14px;
+}
+
+.list span {
+    text-align: center;
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.row{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    white-space: nowrap;
+    width: 100%;
+}
+.clickable{
+  cursor: pointer;
+}
+.panel-heading div {
+margin-top: -18px;
+font-size: 15px;
+}
+.panel-heading div span{
+margin-left:5px;
+}
+.panel-body{
+display: none;
+}
+.table{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.table th{
+  text-align:center;
+}

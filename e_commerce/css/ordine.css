@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #f76d09;
+    padding: 20px;
+}
+.row{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    white-space: nowrap;
+    width: 100%;
+}
+.clickable{
+  cursor: pointer;
+}
+.panel-heading div {
+margin-top: -18px;
+font-size: 15px;
+}
+.panel-heading div span{
+margin-left:5px;
+}
+.panel-body{
+display: none;
+}
+.table{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.table th{
+  text-align:center;
+}
