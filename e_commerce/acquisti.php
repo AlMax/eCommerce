@@ -160,7 +160,7 @@
               echo "</tbody></table></div></div></div></div></form>";
           }
       } catch(PDOException $e){
-        echo "Non sei Registrato!";
+        echo "Non sei Registrato.";
       }
       $connection=null;
     ?>
